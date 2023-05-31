@@ -1,5 +1,6 @@
 #!/bin/bash
 # Check the correctness of #arguments
+
 if [ $# -ne 2 ]; then
     echo "Error: Please provide two arguments - filesdir and searchstr" >&2
     exit 1
